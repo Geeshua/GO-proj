@@ -1,0 +1,9 @@
+@import "./normalize.css";
+@import "./style.css";
+@import "./main/banner.css";
+@import "./main/hall.css";
+@import "./main/booking.css";
+@import "./main/about-us.css";
+@import "./main/review.css";
+@import "./main/faq.css";
+@import "./contacts.css";

@@ -1,0 +1,43 @@
+.main__banner{
+    display: inline-block;
+    width: 100%;
+    padding-top: 146px;
+}
+
+.banner{
+    position: relative;
+}
+
+.banner__title{
+    text-transform: uppercase;
+    max-width: 883px;
+    line-height: 150px;
+    font-weight: 900;
+    font-size: 150px;
+    text-align: center;
+    letter-spacing: -0.1em;
+}
+
+.banner__subtitle{
+    padding-left: 100px;
+    margin-bottom: 723px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 50px;    
+}
+
+.banner::after{
+    position: absolute;
+    content: '';
+    display: inline-block;
+    width: 675px;
+    height: 762px;
+    left: 635px;
+    top: 207px;
+    z-index: 1;
+    background-image: url(../img/GO.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: inherit;
+}
