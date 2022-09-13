@@ -1,3 +1,13 @@
+.contacts{
+    margin-bottom: 155px;
+}
+
+.contacts__container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
 .contacts__title{
     margin-bottom: 40px;
 }

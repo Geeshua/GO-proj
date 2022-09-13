@@ -1,0 +1,18 @@
+.footer__artist{
+    display: flex;
+    justify-content: space-between;
+}
+
+.artist__name{
+    margin-bottom: 5px;
+}
+
+.footer__artist p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.artist__mail{
+    margin-bottom: 10px;
+}

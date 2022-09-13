@@ -30,11 +30,12 @@ h1,h2,h3{
 }
 
 h2{
-    margin-bottom: 50px;
     text-align: center;
     font-weight: 700;
     font-size: 40px;
     line-height: 50px;
+    padding: 0 100px;
+    margin-bottom: 40px;
 }
 
 ul, ol{
@@ -67,11 +68,12 @@ button{
 
 .scheme{
     width: 1440px;
-    padding: 0 0 50px;
+    padding: 0 130px;
     margin: 0 auto;
 }
 
-section{
-    padding: 0 130px;
+fieldset{
+    border: none;
 }
+
 

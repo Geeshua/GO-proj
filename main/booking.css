@@ -1,3 +1,30 @@
 .main__booking{
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+    background-color: #440F51;
+}
+
+.booking__title{
+    padding-top: 80px;
+    margin-bottom: 40px;
+}
+
+.booking__choose-hall{
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 40px;
+}
+
+.booking__form__halls{
+    margin-bottom: 60px;
+}
+
+
+.booking__form__comlex, .booking__form__date{
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 40px;
 }
