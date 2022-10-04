@@ -18,13 +18,198 @@
 
 .booking__form__halls{
     margin-bottom: 60px;
+    display: flex;
+    padding: 0 130px;
+    justify-content: space-between;
 }
 
 
-.booking__form__comlex, .booking__form__date{
+.booking__form__complex__title, 
+.booking__form__date__title{
+    width: 100%;
     text-align: center;
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
     margin-bottom: 40px;
+}
+
+
+.booking__form__halls__option{
+    border-radius: 8px;
+    width: 250px;
+    height: 55px;
+    padding: 7px 15px;
+    background-color: #fff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+
+.booking__form__halls input[type='radio']{
+    display: none;
+}
+
+.booking__form__complex__subtitle{    
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.booking__form__complex{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 230px;
+}
+
+.booking__form__complex__section{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+.booking__form__complex__item{
+    display: flex;
+    margin-bottom: 22px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+    align-items: center;
+}
+
+.booking__form__option{
+    width: 27px;
+    height: 27px;
+    margin-right: 12px;
+}
+
+.booking__form__complex__item:last-child{
+    margin-bottom: 0;
+}
+
+.booking__form__date__container{
+    padding: 0 230px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.booking__form_1{
+    padding-top: 17px;
+    width: 300px;
+    margin-right: 50px;
+}
+.booking__form__dates_btn{
+    width: 134px;
+    height: 52px;
+    margin-right: 27px;
+    margin-bottom: 36px;
+}
+.booking__form__dates_btn{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #211E1E;
+}
+
+.booking__form_1 input[type="text"]
+{
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #211E1E;
+    background-image: url(../img/Polygon\ 1.svg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: calc(100% - 18px);
+
+}
+
+
+.booking__form__time_btn{
+    width: 134px;
+    height: 52px;
+}
+.booking__form__amount_btn{
+    width: 300px;
+    height: 52px;
+}
+
+.booking__form_2{
+    width: 280px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.booking__form__name{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+}
+.booking__form__name__btn{
+    width: 280px;
+    height: 52px;
+}
+.booking__form__surname{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+
+}
+.booking__form__surname__btn{
+    width: 280px;
+    height: 52px;
+}
+
+
+.booking__form_3{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.booking__form__telephone{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+}
+.booking__form__telephone__btn{
+    width: 300px;
+    height: 52px;
+}
+.booking__form__mail{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+}
+.booking__form__mail__btn{
+    width: 300px;
+    height: 52px;
+}
+.booking__button-container{
+    padding: 0 230px;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    padding-bottom: 80px;
+}
+
+.booking__form__submit{
+    width: 300px;
+    height: 60px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #6C0287;
 }

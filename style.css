@@ -66,11 +66,18 @@ button{
     cursor: pointer;
 }
 
-.scheme{
+.header__scheme,
+.banner__scheme,
+.media__scheme,
+.halls__scheme,
+.about-us__scheme,
+.review__scheme,
+.faq__scheme{
     width: 1440px;
     padding: 0 130px;
     margin: 0 auto;
 }
+
 
 fieldset{
     border: none;
