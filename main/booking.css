@@ -3,6 +3,11 @@
     background-color: #440F51;
 }
 
+.booking__scheme{
+    width: 1440px;
+    margin: 0 auto;
+}
+
 .booking__title{
     padding-top: 80px;
     margin-bottom: 40px;
@@ -16,7 +21,7 @@
     margin-bottom: 40px;
 }
 
-.booking__form__halls{
+.booking__form--halls{
     margin-bottom: 60px;
     display: flex;
     padding: 0 130px;
@@ -35,7 +40,7 @@
 }
 
 
-.booking__form__halls__option{
+.halls__option{
     border-radius: 8px;
     width: 250px;
     height: 55px;
@@ -51,7 +56,7 @@
 }
 
 
-.booking__form__halls input[type='radio']{
+.booking__form--halls input[type='radio']{
     display: none;
 }
 
@@ -62,7 +67,7 @@
     margin-bottom: 25px;
 }
 
-.booking__form__complex{
+.booking__form--complex{
     display: flex;
     justify-content: space-between;
     padding: 0 230px;

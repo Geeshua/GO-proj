@@ -18,7 +18,6 @@
           <li class="navigation__list-item"><a href="#halls" class="navigation__link"> залы </a></li>
           <li class="navigation__list-item"><a href="#booking" class="navigation__link"> бронь </a></li>
           <li class="navigation__list-item"><a href="#about-us" class="navigation__link"> о нас </a></li>
-          <!-- поменяла, чтобы логичнее по контенту сайта шло -->
           <li class="navigation__list-item"><a href="#review" class="navigation__link"> отзывы </a></li>
           <li class="navigation__list-item"><a href="#contacts" class="navigation__link"> контакты </a></li>
         </ul>
@@ -28,6 +27,7 @@
       </button>
     </header>
   </div>
+
   <main class="main">
     <div class="banner__scheme">
       <section class="banner main__banner">
@@ -53,12 +53,12 @@
         <h2 class="media__title">У нас есть все для классного
           отдыха с друзьями!</h2>
         <div class="media__list">
-          <p class="media__item media__item_VR">VR очки</p>
-          <p class="media__item media__item_audio">Аудио-система 5.1 с отличным звуком</p>
-          <p class="media__item media__item_microphone">Караоке (4 микрофона)</p>
-          <p class="media__item media__item_top-table">Настольные игры</p>
-          <p class="media__item media__item_movie">Кино сервисы Netflix, IVI, MegoGo, КиноПоиск, Okko</p>
-          <p class="media__item media__item_PS5">РlаyStаtiоn 5</p>
+          <p class="media__item media__item--VR">VR очки</p>
+          <p class="media__item media__item--audio">Аудио-система 5.1 с отличным звуком</p>
+          <p class="media__item media__item--microphone">Караоке (4 микрофона)</p>
+          <p class="media__item media__item--top-table">Настольные игры</p>
+          <p class="media__item media__item--movie">Кино сервисы Netflix, IVI, MegoGo, КиноПоиск, Okko</p>
+          <p class="media__item media__item--PS5">РlаyStаtiоn 5</p>
         </div>
       </section>
     </div>
@@ -73,27 +73,29 @@
         </div>
       </section>
     </div>
+    
     <section class="booking main__booking" id="booking">
+      <div class="booking__scheme">
       <h2 class="booking__title"> Забронировать зал просто
       </h2>
       <p class="booking__choose-hall">Выбери зал</p>
       <form action="https://jsonplaceholder.typicode.com/posts" method="post" class="booking__form">
-        <fieldset class="booking__form__halls">
+        <fieldset class="booking__form--halls">
           <label><input type="radio" name="hall">
-            <p class="booking__form__halls__option"> 80`s vibes </p>
+            <p class="halls__option"> 80`s vibes </p>
           </label>
           <label><input type="radio" name="hall">
-            <p class="booking__form__halls__option"> star wars </p>
+            <p class="halls__option"> star wars </p>
           </label>
           <label><input type="radio" name="hall">
-            <p class="booking__form__halls__option"> Wild west </p>
+            <p class="halls__option"> Wild west </p>
           </label>
           <label><input type="radio" name="hall">
-            <p class="booking__form__halls__option"> Neon style </p>
+            <p class="halls__option"> Neon style </p>
           </label>
         </fieldset>
 
-        <fieldset class="booking__form__complex">
+        <fieldset class="booking__form--complex">
           <legend class="booking__form__complex__title">Собери набор развлечений</legend>
           <fieldset class="booking__form__complex__section">
             <legend class="booking__form__complex__subtitle">Приставка:</legend>
@@ -156,6 +158,7 @@
       </div>
         <!-- <label><input type="checkbox" required> Согласен на обработку данных</label> -->
       </form>
+    </div>
     </section>
 
 
@@ -182,8 +185,8 @@
                 <p class="quote__close"> ”</p>
               </div>
               <cite class="quote__author">
-                <img src="./img/Arkady.png" alt="Arkady`s photo" class="quote__author_img">
-                <p class="quote__author_text">Аркадий Абакшин,
+                <img src="./img/Arkady.png" alt="Arkady`s photo" class="quote__author--img">
+                <p class="quote__author--text">Аркадий Абакшин,
                   создатель игровой
                   территории GAME OVER</p>
               </cite>

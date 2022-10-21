@@ -68,7 +68,7 @@
     padding-left: 60px;
 }
 
-.quote__author_img{
+.quote__author--img{
     display: inline-block;
     width: 80px;
     height: 80px;
@@ -76,7 +76,7 @@
     margin-right: 30px;
 }
 
-.quote__author_text{
+.quote__author--text{
     width: 280px;
     font-weight: 400;
     font-size: 20px;
