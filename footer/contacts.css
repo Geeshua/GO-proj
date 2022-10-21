@@ -23,7 +23,7 @@
 
 
 
-.contacts__location_img, .contacts__tel_img, .contacts__mail_img{
+.contacts__location--img, .contacts__tel--img, .contacts__mail--img{
     display: inline-block;
     width: 34.96px;
     height: 32px;
@@ -33,7 +33,7 @@
 
 }
 
-.contacts__location_text, .contacts__tel_text, .contacts__mail_text{
+.contacts__location--text, .contacts__tel--text, .contacts__mail--text{
     display: inline-block;
     white-space: pre-line;
     max-width: 415px;

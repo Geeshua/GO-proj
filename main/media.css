@@ -29,7 +29,7 @@
 .media__item:nth-child(n+3){
     margin-bottom: 0;
 }
-.media__item--VR{
+.media__item--vr{
     background-image: url(../img/vr.jpg);
 }
 .media__item--audio{
@@ -44,6 +44,6 @@
 .media__item--movie{
     background-image: url(../img/netflix.jpg);
 }
-.media__item--PS5{
+.media__item--ps5{
     background-image: url(../img/sony.jpg);
 }
