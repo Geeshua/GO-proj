@@ -66,10 +66,10 @@
       <section class="halls main__halls" id="halls">
         <h2 class="halls__title">наши залы</h2>
         <div class="halls__list">
-          <div class="halls__item halls__item--vibes"> 80’s vibes </div>
-          <div class="halls__item halls__item--star-wars"> Star wars </div>
-          <div class="halls__item halls__item--wild-west"> wild west </div>
-          <div class="halls__item halls__item--neon-style"> neon style </div>
+          <div class=" halls__item halls__item--vibes"> 80’s vibes </div>
+          <div class=" halls__item halls__item--star-wars"> Star wars </div>
+          <div class=" halls__item halls__item--wild-west"> wild west </div>
+          <div class=" halls__item halls__item--neon-style"> neon style </div>
         </div>
       </section>
     </div>
@@ -110,21 +110,21 @@
           </fieldset>
           <fieldset class="complex__section">
             <legend class="complex__subtitle">Настольные игры:</legend>
-            <label class="complex__item"><input type="checkbox" class="booking__form--option"> Jenga
+            <label class="complex__item "><input type="checkbox" class="booking__form--option complex__item--cb"> Jenga
             </label>
-            <label class="complex__item"><input type="checkbox" class="booking__form--option"> Monopoly
+            <label class="complex__item"><input type="checkbox" class="booking__form--option complex__item--cb"> Monopoly
             </label>
-            <label class="complex__item"><input type="checkbox" class="booking__form--option"> Манчкин
+            <label class="complex__item"><input type="checkbox" class="booking__form--option complex__item--cb"> Манчкин
             </label>
-            <label class="complex__item"><input type="checkbox" class="booking__form--option"> Alias
+            <label class="complex__item"><input type="checkbox" class="booking__form--option complex__item--cb"> Alias
             </label>
           </fieldset>
           <fieldset class="complex__section">
             <legend class="complex__subtitle">Дополнительно:</legend>
             <label class="complex__item"><input type="checkbox" name="additional"
-                class="booking__form--option"> Караоке </label>
+                class="booking__form--option complex__item--cb"> Караоке </label>
             <label class="complex__item"><input type="checkbox" name="additional"
-                class="booking__form--option"> VR </label>
+                class="booking__form--option complex__item--cb"> VR </label>
           </fieldset>
         </fieldset>
 
@@ -264,11 +264,11 @@
               </div>
 
               <ul class="social">
-                <li><a href="https://vk.com"> <img src="./img/vk.svg" alt="vk logp" class="vk"> </a></li>
+                <li><a href="https://vk.com" class="social-link"> <img src="./img/vk.svg" alt="vk logo" class="vk social__circle"> </a></li>
                 <li><a href="https://web.telegram.org"> <img src="./img/telegram.svg" alt="telegram logo"
-                      class="telegram"> </a></li>
-                <li><a href="#"><img src="./img/pinterest.svg" alt="pinterest logo" class="pinterest"></a></li>
-                <li><a href=""><img src="./img/stumbleupon.svg" alt="stumbleupon logo" class="stumbleupon"></a></li>
+                      class="telegram social__circle"> </a></li>
+                <li><a href="#"><img src="./img/pinterest.svg" alt="pinterest logo" class="pinterest social__circle"></a></li>
+                <li><a href=""><img src="./img/stumbleupon.svg" alt="stumbleupon logo" class="stumbleupon social__circle"></a></li>
               </ul>
             </div>
             <img src="./img/map.png" alt="" class="map">
@@ -286,6 +286,17 @@
       </section>
     </footer>
   </div>
+
+  <script>
+    document.addEventListener('click', event => {
+    if (event.target.matches('button')) {
+        event.target.focus()
+    }
+  })
+  </script>
+
+
+
 </body>
 
 </html>

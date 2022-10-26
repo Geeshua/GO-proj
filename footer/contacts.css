@@ -21,16 +21,16 @@
     margin-bottom: 38px;
 }
 
-
-
 .contacts__location--img, .contacts__tel--img, .contacts__mail--img{
     display: inline-block;
     width: 34.96px;
     height: 32px;
     box-sizing: inherit;
     margin-right: 31px;
-    
+}
 
+.social-link{
+    height: 50px;
 }
 
 .contacts__location--text, .contacts__tel--text, .contacts__mail--text{

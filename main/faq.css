@@ -38,7 +38,13 @@
     color: #fff;
     background-color: #440F51;
 }
+
 .faq__item:nth-child(even):after{
     content: "";
     background-image: url("../img/+White.svg");
+}
+
+.faq__item:nth-child(even)::after:hover{
+    content: "";
+    background-image: url("../img/+White-hover.svg");
 }
