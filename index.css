@@ -1,0 +1,13 @@
+@import url(./normalize.css);
+@import url(./style.css);
+@import url(./header.css);
+@import url(./main/banner.css);
+@import url(./main/media.css);
+@import url(./main/halls.css);
+@import url(./main/booking.css);
+@import url(./main/about-us.css);
+@import url(./main/review.css);
+@import url(./main/faq.css);
+@import url(./footer/contacts.css);
+@import url(./footer/artist.css);
+@import url(./footer/social.css);

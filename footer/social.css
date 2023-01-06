@@ -1,0 +1,27 @@
+.social{
+    display: flex;
+}
+
+.social-link{
+    height: 50px;
+    display: inline-block;
+    margin-right: 27px;
+}
+
+.social li:last-child{
+    margin-right: 0;
+}
+
+.social-link:hover{
+    color: #EADEED;
+}
+
+.social-link:active{
+    color: #CD06FF;
+}
+
+.social-link:focus{
+    color: #EADEED;
+    border: 1px solid #CD06FF;
+
+}
