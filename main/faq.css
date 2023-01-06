@@ -22,7 +22,7 @@
     margin-bottom: 0;
 }
 
-.faq__button, .faq__button_even{
+.faq__button, .faq__button--even{
     background-color: transparent;
     border: none;
     display: inline-block;
@@ -40,7 +40,7 @@
     background-color: #440F51;
 }
 
-.faq__button_even{
+.faq__button--even{
     background-image: url(../img/+White.svg);
 }
 
@@ -48,7 +48,7 @@
     background-image: url(../img/+Violet-hover.svg);
 }
 
-.faq__button_even:hover{
+.faq__button--even:hover{
     background-image: url(../img/+White-hover.svg);
 }
 
@@ -56,7 +56,7 @@
     background-image: url(../img/-Violet.svg);
 }
 
-.faq__button_even:active{
+.faq__button--even:active{
     background-image: url(../img/-White.svg);
 }
 
