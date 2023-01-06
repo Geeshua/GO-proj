@@ -142,7 +142,7 @@
 }
 
 .banner__button--down:active{
-    background-image: url(../img/down-active.svg);
+    background-image: url(../img/down-active.svg) !important;
 }
 
 .banner__button--down:focus{
