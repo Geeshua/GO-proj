@@ -47,3 +47,13 @@
 .media__item--ps5{
     background-image: url(../img/sony.jpg);
 }
+
+.media__item:hover{
+    transform: scale(1.1);
+    box-shadow:  0px 2px 18px #ffffff;
+}
+
+.media__item{
+    transition-duration: 0.3s;
+    transition-property: transform, box-shadow;
+}

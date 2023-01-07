@@ -60,3 +60,8 @@
     background-image: url(../img/-White.svg);
 }
 
+.faq__button,
+.faq__button--even{
+    transition-duration: 0.3s;
+    transition-property: background-image;
+}

@@ -17,11 +17,16 @@
 }
 
 .social-link:active{
-    color: #CD06FF;
+    color: #CD06FF !important;
 }
 
 .social-link:focus{
     color: #EADEED;
     border: 1px solid #CD06FF;
 
+}
+
+.social-link{
+    transition-duration: 0.3s;
+    transition-property: color, border;
 }
