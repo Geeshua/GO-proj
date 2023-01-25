@@ -1,6 +1,7 @@
 .main__media{
-    margin-bottom: 100px;
+    margin-bottom: 140px;
 }
+
 
 .media__list{
     display: flex;
@@ -29,11 +30,15 @@
 .media__item:nth-child(n+3){
     margin-bottom: 0;
 }
+
+
 .media__item--vr{
     background-image: url(../img/vr.jpg);
 }
 .media__item--audio{
     background-image: url(../img/audio.jpg);
+    transform: translateY(70px);
+    transition: none;
 }
 .media__item--microphone{
     background-image: url(../img/micro.jpg);
@@ -43,6 +48,8 @@
 }
 .media__item--movie{
     background-image: url(../img/netflix.jpg);
+    transform: translateY(70px);
+    transition: none;
 }
 .media__item--ps5{
     background-image: url(../img/sony.jpg);

@@ -37,7 +37,7 @@
 
 .faq__item:nth-child(even) {
     color: #fff;
-    background-color: #440F51;
+    background-color: var(--main-color-dark);
 }
 
 .faq__button--even{

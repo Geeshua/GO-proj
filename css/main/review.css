@@ -16,9 +16,26 @@
 }
 
 .figure__img{
+    width: 280px;
+    height: 280px;
     margin-bottom: 11px;
     margin-right: 20px;
+    border-radius: 140px;
+    box-shadow: inset 30px 40px 70px rgba(108, 2, 135, 0.5), inset -30px -40px 70px rgba(108, 2, 135, 0.5);
 }
+
+.reviewer1{
+    background-image: url(../img/reviwer1.png);
+}
+
+.reviewer2{
+    background-image: url(../img/reviewer2.png);
+}
+
+.reviewer3{
+    background-image: url(../img/reviewer3.png);
+}
+
 
 .figure__name{
     text-align: center;

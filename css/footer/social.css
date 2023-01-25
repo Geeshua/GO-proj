@@ -13,16 +13,16 @@
 }
 
 .social-link:hover{
-    color: #EADEED;
+    color: var(--main-color-white);
 }
 
 .social-link:active{
-    color: #CD06FF !important;
+    color: var(--main-color-pink) !important;
 }
 
 .social-link:focus{
-    color: #EADEED;
-    border: 1px solid #CD06FF;
+    color: var(--main-color-white);
+    border: 1px solid var(--main-color-pink);
 
 }
 
